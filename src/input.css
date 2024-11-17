@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'medium';
+        src: url('../Sora/static/Sora-Medium.ttf');
+    }
+
+    @font-face {
+        font-family: 'regular';
+        src: url('../Sora/static/Sora-Regular.ttf');
+    }
+
+    @font-face {
+        font-family: 'semibold';
+        src: url('../Sora/static/Sora-SemiBold.ttf');
+    }
+
+    @font-face {
+        font-family: 'sora';
+        src: url('../Sora/static/Sora-VariableFont_wght.ttf');
+    }
+}
+
+@layer components {
+    .check-list {
+        @apply flex w-fit items-center
+    }
+}
